@@ -127,13 +127,22 @@ cd frontend
 npm run build
 ```
 
-### Deploy on Vercel
+### Deploy full stack (recommended)
 
-1. In [Vercel](https://vercel.com), import the repo and set **Root Directory** to `frontend`.
-2. Add environment variable **`VITE_API_BASE_URL`** = your deployed API origin (no trailing slash), e.g. `https://your-api.onrender.com`.
-3. Deploy the **FastAPI backend** separately (Render, Railway, etc.) and set **`CORS_ORIGINS`** there to include your Vercel URL (`https://your-app.vercel.app`).
+Deploy the **API** first, then the **Vite UI** on Vercel, then wire CORS and `VITE_API_BASE_URL`.
 
-Step-by-step details: [docs/VERCEL.md](docs/VERCEL.md).
+| Guide | Contents |
+|-------|----------|
+| [docs/DEPLOY_FULLSTACK.md](docs/DEPLOY_FULLSTACK.md) | Render Blueprint, Docker, Vercel, env vars, troubleshooting |
+| [docs/VERCEL.md](docs/VERCEL.md) | Frontend-only Vercel details |
+
+Quick reference:
+
+1. **API:** [Render Blueprint](https://dashboard.render.com) using [`render.yaml`](render.yaml) *or* deploy the root [`Dockerfile`](Dockerfile) (Railway, Fly.io, etc.).
+2. **UI:** [Vercel](https://vercel.com) — root directory `frontend`, env **`VITE_API_BASE_URL`** = your API URL (no trailing slash).
+3. **CORS:** Set **`CORS_ORIGINS`** on the API to your `https://*.vercel.app` URL.
+
+Local API with Docker: `docker compose up --build` from the repo root.
 
 ## Configuration
 

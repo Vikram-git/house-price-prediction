@@ -1,5 +1,9 @@
 # Deploy on Vercel (frontend)
 
+For **API + UI** together, start with [DEPLOY_FULLSTACK.md](./DEPLOY_FULLSTACK.md).
+
+---
+
 The UI is a **Vite static build**. The **FastAPI backend** must run on another host (Render, Railway, Fly.io, a VPS, etc.); Vercel only serves the React app.
 
 ## 1. Deploy the API first

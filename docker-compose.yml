@@ -1,0 +1,13 @@
+# Local full-stack smoke test: API only (use `npm run dev` in frontend with VITE_API_BASE_URL=http://localhost:8000)
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      SECRET_KEY: ${SECRET_KEY:-change-me-in-production}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174}
+      DEMO_EMAIL: ${DEMO_EMAIL:-analyst@example.com}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-SecurePass2024}

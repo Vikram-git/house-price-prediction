@@ -1,0 +1,24 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# New Blueprint → paste this repo URL, then set CORS_ORIGINS to your Vercel URL after frontend deploy.
+
+services:
+  - type: web
+    name: house-price-api
+    runtime: python
+    plan: free
+    region: oregon
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false
+      - key: DEMO_EMAIL
+        value: analyst@example.com
+      - key: DEMO_PASSWORD
+        sync: false

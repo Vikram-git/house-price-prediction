@@ -1,0 +1,14 @@
+.git
+.github
+**/.venv
+**/venv
+**/node_modules
+**/dist
+**/__pycache__
+*.pyc
+.env
+*.log
+frontend
+docs
+.gitignore
+README.md
