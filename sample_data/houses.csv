@@ -1,0 +1,221 @@
+location,property_type,bedrooms,bathrooms,sqft_living,year_built,lot_size,price
+West End,Single Family,3,3.0,2124,2007,2834,729646
+Summit,Single Family,3,3.0,2674,2022,2234,873673
+Harbor,Duplex,2,2.0,1557,2012,1654,653541
+West End,Condo,4,4.0,2464,1987,1549,715405
+Northridge,Condo,3,3.0,2291,2004,1209,742231
+West End,Single Family,3,3.0,2151,2001,1786,663595
+Lakeside,Townhouse,5,5.0,2528,2002,1434,796211
+Summit,Condo,4,4.0,2926,2005,1200,820451
+Harbor,Duplex,3,3.0,2556,2013,1200,786144
+Downtown,Condo,2,1.0,2488,1989,1442,792055
+West End,Condo,2,2.0,2171,2008,1200,648163
+Summit,Condo,3,3.0,2943,2019,1520,807137
+Northridge,Single Family,3,2.0,2449,1993,2316,746945
+West End,Single Family,3,2.0,2553,2016,1200,751687
+West End,Townhouse,4,3.0,2924,2013,2982,761695
+Lakeside,Townhouse,4,4.0,2539,1990,1200,745988
+West End,Townhouse,5,4.0,2683,2009,1200,764358
+Northridge,Condo,5,5.0,2808,1997,1200,835479
+Harbor,Single Family,3,3.0,2586,2016,1263,820563
+Northridge,Townhouse,2,2.0,2288,1996,1330,676120
+Northridge,Single Family,2,2.0,2116,2016,1300,725286
+Lakeside,Single Family,4,4.0,2764,2016,2851,840924
+Downtown,Duplex,3,3.0,2235,2018,2174,877332
+Northridge,Single Family,4,3.0,3293,1990,1765,876495
+West End,Condo,4,3.0,2928,2004,1655,721331
+Northridge,Duplex,3,3.0,2592,1995,1200,778472
+Summit,Townhouse,3,2.0,2752,1986,1610,808696
+Northridge,Single Family,3,2.0,2502,2000,1662,797422
+Downtown,Single Family,4,4.0,2919,2009,2504,955642
+Summit,Condo,4,4.0,2339,2020,1200,811339
+Harbor,Duplex,4,3.0,2411,1996,1971,814012
+Summit,Townhouse,5,5.0,2941,2022,1821,904200
+Downtown,Condo,3,3.0,3225,2017,1384,929756
+Downtown,Duplex,3,3.0,2219,2001,1334,850086
+Summit,Single Family,5,4.0,3069,2015,1200,898243
+Northridge,Duplex,3,3.0,2035,2009,1965,739589
+Downtown,Duplex,5,5.0,2916,1986,1200,977660
+Northridge,Condo,5,4.0,2774,2013,1200,789828
+Lakeside,Single Family,4,4.0,2524,2007,1280,781627
+Summit,Condo,2,2.0,2125,2006,1200,702857
+West End,Townhouse,5,4.0,2649,2017,1200,771864
+West End,Single Family,4,4.0,2897,2016,3090,847296
+West End,Duplex,4,4.0,2112,2001,1429,687194
+Lakeside,Condo,3,3.0,1902,2010,1200,690056
+Lakeside,Townhouse,2,1.0,2328,2009,1200,648338
+Harbor,Condo,4,4.0,2937,2013,1200,788880
+Downtown,Single Family,5,5.0,2709,2014,1221,973597
+West End,Duplex,3,3.0,2676,2005,1200,740225
+Summit,Single Family,3,3.0,2460,1989,1745,810325
+Lakeside,Single Family,4,3.0,3112,2004,1200,849230
+West End,Single Family,2,2.0,2432,1987,1373,684660
+Downtown,Duplex,4,4.0,2976,1996,1477,929965
+Northridge,Townhouse,4,4.0,2365,1991,2097,785199
+Harbor,Condo,4,4.0,2485,2005,1363,760719
+Harbor,Single Family,3,3.0,2287,2023,1531,780596
+Harbor,Duplex,2,1.0,2304,1997,1200,710391
+Summit,Single Family,2,2.0,1552,1997,1304,673585
+West End,Single Family,2,1.0,2479,1996,1536,671847
+West End,Condo,3,2.0,2774,2005,2835,719810
+Northridge,Condo,4,4.0,2866,2023,1500,864425
+Downtown,Townhouse,4,4.0,2851,2022,2154,946898
+Lakeside,Single Family,3,2.0,2318,1986,2006,690722
+Northridge,Single Family,4,4.0,2634,2023,2569,866279
+Summit,Condo,4,4.0,2635,2012,2336,827649
+Harbor,Condo,2,1.0,2385,2009,2290,666203
+Summit,Townhouse,4,4.0,2808,2016,1200,873158
+Summit,Single Family,3,3.0,2696,2002,1200,811356
+Northridge,Single Family,5,5.0,2744,1987,1288,874524
+West End,Single Family,3,3.0,2081,2012,1200,650233
+West End,Single Family,4,4.0,2781,1997,1200,815605
+Summit,Townhouse,3,3.0,2373,1985,1200,768246
+Downtown,Single Family,3,2.0,2456,2009,1286,890712
+Downtown,Condo,2,2.0,2241,2021,1361,816384
+Downtown,Single Family,4,4.0,2907,1993,1200,945464
+Northridge,Duplex,3,2.0,2553,2018,1200,818613
+Lakeside,Duplex,2,2.0,2214,1989,1200,730111
+Harbor,Single Family,5,5.0,2956,2018,1362,894394
+Downtown,Condo,3,3.0,3034,2022,1813,901012
+Summit,Condo,3,2.0,2731,1994,1679,766714
+West End,Duplex,4,4.0,2902,1990,1200,778547
+Downtown,Condo,3,2.0,1851,2000,2727,736307
+Northridge,Condo,3,2.0,2596,2013,1375,758379
+Downtown,Condo,4,4.0,2321,2006,1200,818163
+Lakeside,Single Family,5,5.0,2846,2011,1200,848795
+Summit,Condo,4,4.0,2918,2019,1200,836457
+Summit,Townhouse,3,2.0,2298,1998,2382,750247
+Summit,Condo,3,2.0,2702,2002,1579,804791
+Northridge,Condo,4,4.0,1992,2023,1200,729361
+Lakeside,Townhouse,4,4.0,2741,1988,1842,799460
+Lakeside,Condo,4,3.0,2313,2006,2282,721057
+Northridge,Duplex,3,3.0,2214,2010,1200,732013
+Downtown,Single Family,5,5.0,3066,2017,1246,950404
+Summit,Condo,5,5.0,3123,1999,1409,867475
+Summit,Condo,5,5.0,3111,1986,2738,905280
+Downtown,Single Family,4,4.0,2521,2003,1200,920105
+West End,Condo,2,2.0,2011,1998,1674,567674
+Downtown,Condo,4,4.0,2497,1994,1361,900007
+Lakeside,Single Family,3,3.0,3015,2021,3091,799155
+Downtown,Townhouse,2,2.0,2343,1993,1200,793918
+Northridge,Duplex,5,5.0,2552,1992,1613,855412
+West End,Townhouse,3,3.0,2299,1998,1200,636844
+Harbor,Townhouse,2,2.0,2341,1992,1200,666835
+Downtown,Single Family,5,5.0,2905,2009,2408,953698
+Lakeside,Townhouse,4,3.0,2228,2023,1200,764340
+West End,Condo,4,4.0,2950,2020,1378,793893
+Northridge,Townhouse,4,4.0,2881,1986,1583,828222
+Northridge,Townhouse,5,5.0,2824,2013,1200,846388
+West End,Duplex,4,4.0,3513,2011,2175,881722
+West End,Townhouse,3,2.0,2163,1994,1200,630991
+Lakeside,Townhouse,3,3.0,2269,1997,1814,682515
+Downtown,Duplex,4,4.0,2740,2012,1563,921985
+Downtown,Single Family,5,5.0,2848,2006,1200,958879
+West End,Townhouse,2,2.0,2255,1999,1964,640928
+Northridge,Townhouse,4,4.0,2642,2010,1200,782401
+Northridge,Townhouse,3,3.0,2098,2018,1200,747877
+Downtown,Duplex,3,2.0,2677,2008,1200,889431
+Harbor,Duplex,2,2.0,2038,2010,1839,687005
+West End,Condo,4,4.0,2370,1991,1200,694152
+Downtown,Condo,3,3.0,2299,2013,1200,880461
+Lakeside,Single Family,5,4.0,2590,1986,1200,846780
+Summit,Townhouse,3,2.0,2376,2023,1200,765007
+Downtown,Townhouse,3,3.0,2718,2007,1224,905931
+Northridge,Condo,3,2.0,2487,1987,1279,719756
+Lakeside,Condo,5,5.0,3173,2000,2383,805496
+Harbor,Townhouse,3,2.0,2841,2005,1753,730803
+Lakeside,Single Family,4,3.0,3174,1986,1200,808618
+West End,Single Family,4,4.0,2504,2019,2075,792093
+Northridge,Townhouse,3,3.0,2451,1998,1816,784569
+Northridge,Condo,2,2.0,1959,2010,2562,643230
+Harbor,Condo,5,5.0,2928,2005,1335,851752
+Lakeside,Single Family,4,4.0,3187,2006,1329,847972
+West End,Single Family,2,2.0,2515,1991,2028,692135
+Harbor,Duplex,5,5.0,2380,1985,1200,795527
+Lakeside,Single Family,4,3.0,2468,1995,2141,734360
+Downtown,Townhouse,3,2.0,2598,1989,1428,805731
+West End,Condo,3,2.0,2425,2001,3281,664498
+Lakeside,Single Family,3,3.0,2450,2009,2489,762790
+Harbor,Duplex,4,3.0,2522,2014,1891,777520
+Northridge,Single Family,2,2.0,2300,1996,2646,754904
+Harbor,Single Family,4,4.0,2713,2000,1200,820477
+Northridge,Duplex,3,3.0,2500,2016,1200,805169
+Lakeside,Single Family,5,5.0,2958,1991,1566,832967
+Lakeside,Condo,4,4.0,3059,2023,1200,807237
+Downtown,Duplex,4,4.0,2550,2018,1377,945042
+Lakeside,Condo,4,3.0,2795,2013,1200,786106
+Northridge,Duplex,4,4.0,2914,1986,1719,840339
+Downtown,Condo,5,5.0,2755,2000,2193,907851
+West End,Single Family,2,2.0,2646,1987,1200,686893
+Lakeside,Duplex,3,3.0,2014,1999,1673,652869
+West End,Duplex,3,3.0,2121,2021,1890,701094
+Summit,Duplex,3,3.0,2145,1988,1531,783321
+Harbor,Townhouse,3,2.0,2913,2018,1200,782464
+Lakeside,Condo,5,5.0,3297,2001,1200,845492
+Summit,Single Family,4,3.0,2574,2009,2302,876236
+Lakeside,Condo,2,1.0,2189,1987,1200,630030
+Harbor,Condo,3,3.0,2763,2008,1233,750844
+Lakeside,Townhouse,4,4.0,2934,1987,1356,815400
+Downtown,Single Family,4,4.0,2363,1990,1969,882434
+West End,Single Family,3,2.0,2329,2009,1200,680751
+Harbor,Condo,4,4.0,2846,2015,1263,796094
+Downtown,Single Family,5,4.0,3003,1998,1200,947466
+Lakeside,Duplex,4,4.0,2921,2011,1351,823606
+Lakeside,Duplex,4,3.0,2570,1991,1200,769704
+West End,Duplex,5,5.0,2913,2013,1200,843072
+West End,Townhouse,4,3.0,2817,2001,1200,715514
+Lakeside,Duplex,3,3.0,2730,1998,1200,769666
+Harbor,Duplex,4,3.0,2554,2016,1986,811717
+Lakeside,Townhouse,5,5.0,3202,2013,1381,890849
+Harbor,Single Family,3,3.0,2257,1995,1730,725119
+Harbor,Condo,4,3.0,2358,2004,1200,709206
+Downtown,Condo,2,2.0,2172,2019,1515,789705
+West End,Townhouse,4,3.0,2615,1992,1200,717444
+Harbor,Single Family,3,3.0,2356,2013,1350,759073
+Summit,Condo,2,2.0,2438,1998,2376,759040
+West End,Duplex,2,2.0,2079,2006,1200,621712
+Downtown,Duplex,4,4.0,2838,1992,2662,920543
+Lakeside,Townhouse,5,4.0,3120,2022,1554,859598
+Downtown,Duplex,2,2.0,2371,1996,3104,828290
+West End,Single Family,3,3.0,2518,2017,1200,727963
+Lakeside,Townhouse,3,3.0,2761,1999,1200,740423
+Northridge,Duplex,3,3.0,2967,1992,1518,822522
+West End,Townhouse,3,2.0,2606,1991,1682,740953
+Summit,Townhouse,5,5.0,2737,1998,1328,853056
+Harbor,Condo,3,2.0,2324,2020,1635,714935
+Harbor,Condo,3,3.0,2601,1987,1200,710349
+Harbor,Single Family,5,4.0,2687,1999,1224,784543
+Summit,Single Family,3,3.0,2567,2012,1921,785769
+Harbor,Townhouse,4,4.0,3240,1999,1260,860329
+Lakeside,Condo,3,3.0,2873,1999,2171,754411
+West End,Duplex,5,4.0,2699,1998,1327,812575
+Summit,Townhouse,4,4.0,2896,2009,1200,846951
+Northridge,Condo,2,2.0,2317,2012,1776,678697
+Northridge,Duplex,4,4.0,2465,1994,1200,756499
+Summit,Single Family,2,2.0,2311,2004,1645,760599
+Northridge,Duplex,5,5.0,2441,1996,2042,860691
+West End,Duplex,4,3.0,2654,1999,2331,806142
+West End,Townhouse,5,5.0,2809,2010,1200,820791
+Harbor,Single Family,2,1.0,2217,1998,1200,721184
+Lakeside,Duplex,3,2.0,2478,2007,1540,715235
+Summit,Single Family,4,4.0,2792,1992,1200,893966
+Harbor,Condo,5,4.0,3143,2010,1593,833131
+Lakeside,Single Family,3,2.0,2452,1996,1435,716072
+West End,Single Family,2,1.0,2474,2012,2528,697787
+Northridge,Single Family,2,2.0,1928,1997,1509,726653
+Northridge,Condo,4,4.0,2208,2022,1200,783210
+Harbor,Single Family,3,3.0,2421,1995,1200,724531
+Northridge,Single Family,2,2.0,2686,2013,1200,746528
+Northridge,Condo,4,4.0,2595,2010,1200,796208
+Summit,Townhouse,3,3.0,3339,1992,1355,804261
+Harbor,Single Family,3,3.0,3101,1996,1382,784316
+West End,Duplex,3,2.0,2626,2005,1805,743912
+Northridge,Duplex,3,2.0,2538,1999,1294,741282
+Downtown,Townhouse,5,5.0,3029,2011,3045,981002
+Lakeside,Duplex,5,5.0,3115,1986,1200,812233
+Northridge,Townhouse,3,2.0,2188,1997,1624,710249
+Northridge,Townhouse,4,4.0,2429,2020,1200,804265
+Summit,Single Family,4,4.0,2812,2006,1406,867987
+Northridge,Townhouse,2,1.0,2251,1994,1200,671471
+Lakeside,Duplex,2,2.0,1999,2008,1200,664434
+Lakeside,Single Family,3,2.0,2809,2020,1229,751951

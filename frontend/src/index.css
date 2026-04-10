@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Open House — daylight, paper, warm stone, sage + terracotta */
+html[data-theme="openhouse"] {
+  --app-bg: 252 250 247;
+  --app-muted: 120 113 108;
+  --ink: 41 37 36;
+  --ink-soft: 87 83 78;
+  --surface: 255 255 255;
+  --surface-strong: 245 242 237;
+  --accent: 5 150 105;
+  --accent-muted: 16 185 129;
+  --value: 194 65 12;
+}
+
+/* Midnight Horizon — night sky, teal signal, brass value */
+html[data-theme="midnight"] {
+  --app-bg: 3 7 18;
+  --app-muted: 148 163 184;
+  --ink: 248 250 252;
+  --ink-soft: 148 163 184;
+  --surface: 255 255 255;
+  --surface-strong: 30 41 59;
+  --accent: 45 212 191;
+  --accent-muted: 13 148 136;
+  --value: 251 191 36;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen font-sans text-ink antialiased;
+    background-color: rgb(var(--app-bg));
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-2xl border border-white/10 bg-surface/80 shadow-glass backdrop-blur-xl dark:border-white/10 dark:bg-white/[0.06] dark:shadow-glass-dark;
+  }
+
+  .glass {
+    @apply rounded-2xl border border-stone-200/80 bg-white/90 shadow-glass backdrop-blur-md dark:border-white/10 dark:bg-white/[0.05] dark:shadow-glass-dark;
+  }
+
+  .input-themed {
+    @apply w-full rounded-xl border border-stone-200 bg-white/90 px-3 py-2.5 text-sm text-ink outline-none transition
+      placeholder:text-ink-soft/50
+      focus:border-[rgb(var(--accent)/0.5)] focus:ring-2 focus:ring-[rgb(var(--accent)/0.2)]
+      dark:border-white/10 dark:bg-slate-950/50 dark:text-white;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold text-white shadow-lift transition
+      bg-gradient-to-r from-teal-600 to-emerald-600 hover:brightness-110 active:scale-[0.99]
+      dark:from-teal-500 dark:to-cyan-600 dark:shadow-teal-900/40;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-xl border border-stone-200 bg-stone-50 px-4 py-2.5 text-sm font-medium text-ink transition
+      hover:bg-stone-100
+      dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:bg-white/10;
+  }
+
+  .kpi-card {
+    @apply relative overflow-hidden rounded-2xl border border-stone-200/90 bg-gradient-to-br from-white to-stone-50/60 p-5 shadow-sm transition duration-300
+      hover:-translate-y-0.5 hover:shadow-md
+      dark:border-white/10 dark:from-white/[0.07] dark:to-white/[0.02] dark:hover:shadow-lg dark:hover:shadow-black/20;
+  }
+
+  .kpi-card::after {
+    content: "";
+    @apply pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full opacity-[0.12] dark:opacity-20;
+    background: radial-gradient(circle, rgb(var(--accent)) 0%, transparent 70%);
+  }
+
+  .section-title {
+    @apply font-display text-lg font-semibold tracking-tight text-ink;
+  }
+
+  .eyebrow {
+    @apply text-[10px] font-semibold uppercase tracking-[0.25em] text-ink-soft;
+  }
+}
