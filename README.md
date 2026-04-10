@@ -127,7 +127,13 @@ cd frontend
 npm run build
 ```
 
-Serve `frontend/dist` with any static host; configure the API base URL or reverse-proxy `/api` to the FastAPI service.
+### Deploy on Vercel
+
+1. In [Vercel](https://vercel.com), import the repo and set **Root Directory** to `frontend`.
+2. Add environment variable **`VITE_API_BASE_URL`** = your deployed API origin (no trailing slash), e.g. `https://your-api.onrender.com`.
+3. Deploy the **FastAPI backend** separately (Render, Railway, etc.) and set **`CORS_ORIGINS`** there to include your Vercel URL (`https://your-app.vercel.app`).
+
+Step-by-step details: [docs/VERCEL.md](docs/VERCEL.md).
 
 ## Configuration
 
@@ -135,8 +141,11 @@ Environment variables (optional) can override defaults when using `pydantic-sett
 
 - `SECRET_KEY` — JWT signing secret
 - `DEMO_EMAIL` / `DEMO_PASSWORD` — demo credentials
+- `CORS_ORIGINS` — comma-separated browser origins allowed to call the API (add your Vercel URL for production)
 
 Create `backend/.env` if needed.
+
+**Frontend (Vite):** `VITE_API_BASE_URL` — set in Vercel for production; omit locally so `/api` proxy is used.
 
 ## License
 

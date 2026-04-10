@@ -1,4 +1,10 @@
-const API_BASE = "/api";
+/**
+ * Local dev: Vite proxies `/api` → FastAPI (see vite.config.ts).
+ * Production: set `VITE_API_BASE_URL` to your API origin (no trailing slash), e.g.
+ * https://house-price-api.onrender.com
+ */
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, "").trim() || "/api";
 
 function authHeaders(token: string | null): HeadersInit {
   const h: Record<string, string> = { "Content-Type": "application/json" };

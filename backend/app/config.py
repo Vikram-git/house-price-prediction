@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 480
     demo_email: str = "analyst@example.com"
     demo_password: str = "SecurePass2024"
+    # Comma-separated; add your Vercel URL(s), e.g. https://your-app.vercel.app
     cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
 
 
